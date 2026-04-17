@@ -1,3 +1,5 @@
+
+
 git add app/src/main/res/layout/activity_main.xml
 git commit -m "Improve main screen alignment and spacing"<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
