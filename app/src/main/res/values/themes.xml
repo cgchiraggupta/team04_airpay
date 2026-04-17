@@ -5,7 +5,6 @@
         <item name="colorPrimaryVariant">@color/primary_variant</item>
         <item name="colorSecondary">@color/secondary</item>
         <item name="android:colorBackground">@color/background</item>
-        <item name="colorSurface">@color/surface</item>
         <item name="colorOnPrimary">@color/text_primary</item>
         <item name="colorOnSecondary">@color/text_primary</item>
         <item name="colorOnBackground">@color/text_primary</item>
