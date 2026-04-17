@@ -13,7 +13,6 @@
 
         <ImageView
             android:id="@+id/btnBack"
-            android:layout_width="42dp"
             android:layout_height="42dp"
             android:background="@drawable/bg_flow_chip"
             android:contentDescription="@string/history_back"
