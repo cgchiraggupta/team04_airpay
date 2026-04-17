@@ -21,7 +21,6 @@
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingStart="@dimen/spacing_lg"
-                android:paddingTop="@dimen/spacing_lg"
                 android:paddingEnd="@dimen/spacing_lg">
 
                 <LinearLayout
