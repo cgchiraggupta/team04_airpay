@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_flow_shell">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        android:paddingBottom="12dp">
+
+        <LinearLayout
+            android:id="@+id/receiptContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/spacing_lg">
+
+            <!-- Status Icon -->
+            <ImageView
+                android:id="@+id/ivStatus"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="@dimen/spacing_lg"
+                android:src="@drawable/ic_success"
+                android:contentDescription="@string/result_status_content_description" />
+
+            <!-- Status Title -->
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_lg"
+                android:text="@string/result_success_title"
+                android:textColor="@color/flow_text_on_gradient"
+                android:textSize="@dimen/text_title"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Amount -->
+            <TextView
+                android:id="@+id/tvAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_sm"
+                android:text="@string/result_amount_placeholder"
+                android:textColor="@color/flow_text_on_gradient"
+                android:textSize="40sp"
+                android:fontFamily="sans-serif-medium" />
+
+            <!-- Status Message -->
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_sm"
+                android:text="@string/result_sent_placeholder"
+                android:textColor="@color/flow_text_muted"
+                android:textSize="@dimen/text_body"
+                android:gravity="center" />
+
+            <!-- Transaction Details Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xl"
+                app:cardBackgroundColor="@color/flow_surface_soft"
+                app:cardCornerRadius="32dp"
+                app:cardElevation="0dp"
+                app:strokeColor="@color/flow_receipt_line"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/spacing_lg">
+
+                    <TextView
+                        android:id="@+id/tvCardBadge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_flow_success_badge"
+                        android:paddingStart="14dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="14dp"
+                        android:paddingBottom="8dp"
+                        android:text="@string/result_receipt_badge"
+                        android:textColor="@color/success"
+                        android:textSize="@dimen/text_caption" />
+
+                    <!-- Row: Paid to -->
+                    <LinearLayout
+                        android:id="@+id/rowRecipient"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/spacing_lg"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_paid_to"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvRecipient"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_placeholder_dash"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/flow_receipt_line" />
+
+                    <!-- Row: From -->
+                    <LinearLayout
+                        android:id="@+id/rowSender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_from"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvSender"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_you"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/dividerAfterSender"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/flow_receipt_line" />
+
+                    <!-- Row: UPI ID -->
+                    <LinearLayout
+                        android:id="@+id/rowUpiId"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_upi_id"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvUpiId"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_placeholder_dash"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/dividerAfterUpi"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/flow_receipt_line" />
+
+                    <!-- Row: Phone Number -->
+                    <LinearLayout
+                        android:id="@+id/rowPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_phone"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvPhone"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_placeholder_dash"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/dividerAfterPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/flow_receipt_line"
+                        android:visibility="gone" />
+
+                    <!-- Row: Date & Time -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_date_time"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvDateTime"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_placeholder_dash"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/flow_receipt_line" />
+
+                    <!-- Row: Transaction Ref -->
+                    <LinearLayout
+                        android:id="@+id/rowTransactionRef"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:id="@+id/tvTransactionRefLabel"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_transaction_ref"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/tvTransactionRef"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_placeholder_dash"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp"
+                            android:textIsSelectable="true" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/flow_receipt_line" />
+
+                    <!-- Row: Method -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="12dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/result_method"
+                            android:textColor="@color/flow_text_muted"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.5"
+                            android:gravity="end"
+                            android:text="@string/result_method_bank_transfer"
+                            android:textColor="@color/flow_text_dark"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_lg"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:layout_marginEnd="@dimen/spacing_lg"
+        android:layout_marginBottom="@dimen/spacing_lg"
+        android:background="@drawable/bg_flow_surface"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_md">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveReceipt"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:layout_marginEnd="@dimen/spacing_sm"
+                android:text="@string/result_save"
+                android:textSize="@dimen/text_body"
+                android:textAllCaps="false"
+                android:textColor="@color/flow_text_dark"
+                app:backgroundTint="@color/flow_surface_chip"
+                app:cornerRadius="22dp"
+                app:strokeColor="@color/flow_receipt_line"
+                app:strokeWidth="1dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShareReceipt"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/spacing_sm"
+                android:text="@string/result_share"
+                android:textSize="@dimen/text_body"
+                android:textAllCaps="false"
+                android:textColor="@color/flow_text_dark"
+                app:backgroundTint="@color/flow_surface_chip"
+                app:cornerRadius="22dp"
+                app:strokeColor="@color/flow_receipt_line"
+                app:strokeWidth="1dp" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRetry"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:text="@string/result_retry"
+            android:textSize="@dimen/text_body"
+            android:textAllCaps="false"
+            android:textColor="@color/flow_text_dark"
+            android:visibility="gone"
+            app:backgroundTint="@color/flow_surface_chip"
+            app:cornerRadius="22dp"
+            app:strokeColor="@color/flow_receipt_line"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginTop="@dimen/spacing_md"
+            android:text="@string/result_done"
+            android:textSize="@dimen/text_body"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/flow_lime_dark"
+            app:backgroundTint="@color/flow_lime"
+            app:cornerRadius="22dp"
+            app:strokeWidth="0dp" />
+    </LinearLayout>
+
+</LinearLayout>
