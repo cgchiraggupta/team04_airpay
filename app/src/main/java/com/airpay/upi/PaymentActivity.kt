@@ -10,8 +10,6 @@ import android.view.animation.DecelerateInterpolator
 import androidx.core.widget.doAfterTextChanged
 import android.widget.Toast
 import com.airpay.upi.data.RecentRecipientsStore
-import com.airpay.upi.ussd.USSDController
-import com.airpay.upi.ussd.UPIData
 import com.airpay.upi.util.AppRuntimeChecks
 import com.airpay.upi.util.RecipientBranding
 import com.google.android.material.button.MaterialButton
@@ -309,6 +307,5 @@ class PaymentActivity : BaseActivity() {
     }
 
     private fun isAccessibilityServiceEnabled(): Boolean {
-        return AppRuntimeChecks.isUssdAccessibilityServiceEnabled(contentResolver)
     }
 }
