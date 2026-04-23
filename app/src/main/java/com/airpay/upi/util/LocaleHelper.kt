@@ -29,6 +29,13 @@ object LocaleHelper {
             .getString(KEY_APP_LANGUAGE, null)
     }
 
+    fun clearStoredLanguage(context: Context) {
+        context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .edit()
+            .remove(KEY_APP_LANGUAGE)
+            .apply()
+    }
+
     private fun updateResources(context: Context, language: String): Context {
         val locale = Locale(language)
         Locale.setDefault(locale)
