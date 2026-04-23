@@ -21,6 +21,7 @@
     <string name="main_meet_description">This branch keeps the same payment flows, but presents them in a cleaner, more direct UI.</string>
     <string name="main_service_on">Helper On</string>
     <string name="main_service_off">Turn On Helper</string>
+    <string name="main_service_active">Active</string>
     <string name="main_recommended_flow">Recommended flow</string>
     <string name="main_hero_title">Scan, confirm, and pay with a guided GSM handoff.</string>
     <string name="main_hero_description">Use your bank popup as usual. We guide the flow before and after payment so it stays simple.</string>
