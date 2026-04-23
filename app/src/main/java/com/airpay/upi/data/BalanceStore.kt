@@ -17,4 +17,11 @@ object BalanceStore {
         return EncryptedPrefsFactory.create(context, PREFS_NAME)
             .getString(KEY_BALANCE, "-") ?: "-"
     }
+
+    fun clearBalance(context: Context) {
+        EncryptedPrefsFactory.create(context, PREFS_NAME)
+            .edit()
+            .clear()
+            .apply()
+    }
 }
