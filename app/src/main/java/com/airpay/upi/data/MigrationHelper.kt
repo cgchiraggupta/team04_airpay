@@ -26,4 +26,9 @@ object MigrationHelper {
 
         migrationPrefs.edit().putBoolean(KEY_HISTORY_MIGRATED, true).apply()
     }
+
+    fun isMigrationComplete(context: Context, key: String): Boolean {
+        val migrationPrefs = context.getSharedPreferences(META_PREFS_NAME, Context.MODE_PRIVATE)
+        return migrationPrefs.getBoolean(key, false)
+    }
 }
