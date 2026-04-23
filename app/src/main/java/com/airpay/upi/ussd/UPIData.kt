@@ -12,3 +12,7 @@ enum class TargetType {
     UPI,
     PHONE
 }
+
+fun UPIData.isValid(): Boolean {
+    return upiId.isNotBlank() || phoneNumber.isNotBlank()
+}
