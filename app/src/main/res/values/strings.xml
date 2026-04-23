@@ -33,6 +33,7 @@
     <string name="main_balance_title">Balance check</string>
     <string name="main_balance_description">Open the bank menu with guidance and see your latest balance.</string>
     <string name="main_balance_hint">Tap to check</string>
+    <string name="main_scan_hint">Tap to scan</string>
     <string name="main_pay_upi_title">Pay by UPI ID</string>
     <string name="main_pay_upi_description">Type a UPI ID directly when you do not want to scan a QR.</string>
     <string name="main_voice_pay_title">Voice pay</string>
