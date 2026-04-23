@@ -3,6 +3,7 @@ package com.airpay.upi.util
 object RecipientBranding {
     private const val AIRPAY_KEYWORD = "airpay"
     const val AIRPAY_DISPLAY_NAME = "Chirag Gupta"
+    private const val MAX_NAME_LENGTH = 50
     private val airpayAliases = setOf(
         "airpay",
         "airpay user",
