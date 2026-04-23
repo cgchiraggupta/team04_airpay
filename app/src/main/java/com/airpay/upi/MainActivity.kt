@@ -26,6 +26,7 @@ class MainActivity : BaseActivity() {
     companion object {
         private const val CAMERA_PERMISSION_CODE = 100
         private const val PHONE_PERMISSION_CODE = 101
+        private const val TAG = "AirPay"
     }
 
     private var balance by mutableStateOf("-")
