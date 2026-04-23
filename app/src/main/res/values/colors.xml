@@ -5,6 +5,7 @@
     <color name="primary_variant">#16213E</color>
     <color name="secondary">#0F3460</color>
     <color name="accent">#E94560</color>
+    <color name="accent_neo">#FF6B6B</color>
 
     <!-- Surface Colors -->
     <color name="background">#0D0D0D</color>
