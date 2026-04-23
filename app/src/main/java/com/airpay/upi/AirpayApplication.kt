@@ -8,6 +8,8 @@ import com.airpay.upi.util.NotificationHelper
 
 class AirpayApplication : Application() {
 
+    private const val TAG = "AirpayApp"
+
     override fun attachBaseContext(base: Context) {
         super.attachBaseContext(LocaleHelper.applyStoredLocale(base))
     }
