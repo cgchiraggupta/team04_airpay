@@ -61,6 +61,7 @@ object NotificationHelper {
             .setContentIntent(pendingIntent)
             .setAutoCancel(true)
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+            .setCategory(NotificationCompat.CATEGORY_PAYMENT)
             .build()
 
         NotificationManagerCompat.from(context).notify(notificationId, notification)
