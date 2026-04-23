@@ -25,8 +25,8 @@ object RecentRecipientsStore {
         val entry = "$displayName||$displayId"
         newList.remove(entry)
         newList.add(0, entry)
-        if (newList.size > 5) {
-            newList.subList(5, newList.size).clear()
+        if (newList.size > 10) {
+            newList.subList(10, newList.size).clear()
         }
 
         prefs.edit().putString(KEY_RECIPIENTS, newList.joinToString(";;")).apply()
