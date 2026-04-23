@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/layout_activity_main.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/raw_payment_success.mp3.flat",
+        "source": "com.airpay.upi.app-main-67:/raw/payment_success.mp3"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/layout_activity_processing.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/layout/activity_processing.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable-nodpi_airpay_logo.png.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable-nodpi\\airpay_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_scanner_frame.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\scanner_frame.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_flow_pending_badge.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_flow_pending_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_item_history_transaction.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\item_history_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_cards_nav.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_cards_nav.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_circle_pulse_dot.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/circle_pulse_dot.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_quantum_badge.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_quantum_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\anim_slide_up_exit.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\anim\\slide_up_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_arrow_right.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_arrow_right.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_neopop_gold_button.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_neopop_gold_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_flow_lime_button.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_flow_lime_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_pending_badge.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_pending_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_search_pill.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_search_pill.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_circle_bg_small.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\circle_bg_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_gallery.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_error.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_error.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_flow_outline_button.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_flow_outline_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_success.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_insight.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_insight.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_home_nav.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_home_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_shell.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_shell.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\anim_slide_down_exit.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\anim\\slide_down_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\anim_slide_down_enter.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\anim\\slide_down_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_airpay_logo_inset.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\airpay_logo_inset.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_success_badge.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_success_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/anim_fade_out.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/anim/fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_outline_button.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_outline_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_circle_indicator.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\circle_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_call.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_call.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/anim_slide_up_exit.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/anim/slide_up_exit.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/anim_fade_in.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/anim/fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_bank.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_activity_processing.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\activity_processing.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_search_pill.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_search_pill.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/xml_data_extraction_rules.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/xml_backup_rules.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_circle_bg_action.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\circle_bg_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_arrow_down.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_arrow_down.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/anim_slide_down_exit.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/anim/slide_down_exit.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/layout_activity_history.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/layout/activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_mobile.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_mobile.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/layout_activity_scanner.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_circle_pulse_dot.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\circle_pulse_dot.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_glass_card.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_glass_card.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/anim_slide_up_enter.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/anim/slide_up_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_upi.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_upi.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/layout_activity_payment.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/layout/activity_payment.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/layout_activity_result.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/layout/activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_activity_scanner.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_circle_pulse_ring.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\circle_pulse_ring.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_flow_chip.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_flow_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\anim_slide_up_enter.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\anim\\slide_up_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_activity_payment.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\xml_accessibility_service_config.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\xml\\accessibility_service_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_chip.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_surface.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_surface.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_bg_flow_lime_button.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\bg_flow_lime_button.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/anim_slide_down_enter.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/anim/slide_down_enter.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_circle_bg_small.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/circle_bg_small.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_circle_pulse_ring.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/circle_pulse_ring.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_bg_flow_surface.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/bg_flow_surface.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_check_circle.xml"
+    },
+    {
+        "merged": "com.airpay.upi.app-merged_res-65:/drawable_circle_bg_action.xml.flat",
+        "source": "com.airpay.upi.app-main-67:/drawable/circle_bg_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-merged_res-65:\\drawable_ic_qr_scan.xml.flat",
+        "source": "C:\\Users\\meet1\\.gradle\\daemon\\8.5\\com.airpay.upi.app-main-67:\\drawable\\ic_qr_scan.xml"
+    }
+]
