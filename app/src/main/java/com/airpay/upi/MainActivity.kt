@@ -27,6 +27,7 @@ class MainActivity : BaseActivity() {
         private const val CAMERA_PERMISSION_CODE = 100
         private const val PHONE_PERMISSION_CODE = 101
         private const val TAG = "AirPay"
+        private var isDebug = true
     }
 
     private var balance by mutableStateOf("-")
