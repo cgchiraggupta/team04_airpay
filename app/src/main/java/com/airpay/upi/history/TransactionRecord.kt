@@ -20,4 +20,6 @@ data class TransactionRecord(
     val status: String,
     val statusSource: String,
     val statusMessage: String
-)
+) {
+    fun isSuccessful(): Boolean = status == TransactionStatus.CONFIRMED
+}
