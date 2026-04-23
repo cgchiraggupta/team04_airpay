@@ -23,4 +23,5 @@
     <dimen name="icon_size_md">24dp</dimen>
     <dimen name="icon_size_lg">48dp</dimen>
     <dimen name="icon_size_xl">64dp</dimen>
+    <dimen name="elevation_sm">2dp</dimen>
 </resources>
