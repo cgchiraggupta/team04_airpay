@@ -61,4 +61,5 @@
     <color name="quantum_glass_border">#33FFFFFF</color>
     <color name="quantum_border">#265A45F6</color>
     <color name="neopop_shadow">#2C247B</color>
+    <color name="neopop_glow">#FF6BFF</color>
 </resources>
